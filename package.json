@@ -1,0 +1,15 @@
+{
+  "name": "deck_cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cards.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Eduarda Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

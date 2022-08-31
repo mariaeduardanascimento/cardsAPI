@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tirar uma carta com API</h1>
+
+      <div class="informacoes">
+        <p>
+            Aplicação desenvolvida com API de Deck Cards API. Uma carta aleatoria
+            é retirada do baralho e as informações da carta são exibidas, tudo
+            usando API.
+          </p>
+  
+          <img id="carta" class="carta" src="" alt="carta" />
+
+          <p id="valor-carta" class="valor-carta"></p>
+          <p id="naipe-carta" class="naipe-carta"></p>
+
+      </div>
+      <br />
+      <button id="bnt-carta" class="button">Tirar uma carta</button>
+    </div>
+
+    <script type="module" src="cards.js"></script>
+  </body>
+</html>

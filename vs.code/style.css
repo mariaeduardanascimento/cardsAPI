@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(47, 170, 47);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+ h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.informacoes{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+P{
+    position: absolute;
+    flex: 1;
+    margin-left: -450px;
+    max-width: 400px;
+    z-index: 1;
+    font-size: 20px;
+    align-items: start;
+}
+
+.valor-carta, .naipe-carta{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.naipe-carta{
+    margin-top: 100px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(209, 8, 8);  
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #532727;
+    border-radius: 8px;
+}
